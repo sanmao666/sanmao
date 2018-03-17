@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	   * {
+	   	    margin: 0;
+	   	    padding: 0;
+	   }
+	   .clearfix:before , .clearfix:after {
+	   	    content: "";
+	   	    display: table;
+	   }
+	   .clearfix:after {
+	   	    clear: both;
+	   }
+	   .clearfix {
+	   	    *zoom: 1;
+	   }
+	   .bigBox {
+		   	width: 700px;
+		   	height: 300px;
+		   	border: 1px solid #ccc;
+		   	margin: 100px auto;
+	   }
+	   .smallBox {
+            width: 400px;
+	   	    height: 50px;
+            margin: 20px 0 0 20px;
+            line-height: 50px;
+            position: relative;
+            overflow: hidden;
+	   }
+	   .smallBox img {
+	   	    position: absolute;
+	   	    top: 18px;
+	   	    left: 45px;
+	   }
+	   .smallBox a {
+	   	    float: right;
+	   	    color: red;
+	   	    margin-right: 212px;
+	   }
+	   .fl {
+	   	    float: left;
+	   }
+	   h2 {
+	   	    font-size: 20px;
+	   }
+	   .star {
+
+	   }
+	   textarea {
+	   	   width: 650px;
+	   	   height: 150px;
+	   	   resize: none;
+	   	   margin-left: 20px;
+	   }
+	   .tj {
+	   	   width: 55px;
+	   	   height: 22px;
+	   	   margin-left: 20px;
+	   	   /*margin-bottom: 30px;*/
+	   }
+	   p {
+	   	   font-size: 15px;
+	   	   color: red;
+	   	   margin-left: 20px;
+	   }
+	</style>
+</head>
+<body>
+	<div class="bigBox">
+		<div class="smallBox">
+			<h2 class="fl">评论</h2>
+			<img src="images/110.jpg" alt="" class="fl star">
+			<a href="#" class="fl">俺要打分</a>
+		</div>
+		<textarea name="" id="" cols="30" rows="10" placeholder="请输入你对超哥的意见"></textarea>
+		<img src="images/tj.jpg" alt="" class="tj">
+		<p>暂时没有评论</p>
+	</div>
+</body>
+</html>
